@@ -1,16 +1,21 @@
-# React + Vite
+# React Hooks Practice - Weekly Test 04 ⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my React practice repository! This project contains solutions to 4 specific React challenges designed to test understanding of **State Management**, **Side Effects**, **Refs**, and **Custom Hooks**.
 
-Currently, two official plugins are available:
+Built with **Vite + React**. ⚡
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📂 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I've kept things modular. Instead of shoving everything into `App.js`, each problem lives in its own component:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+│   ├── UserDirectory.jsx        # Problem 1: Search Logic
+│   ├── CharacterCounter.jsx     # Problem 2: Input Limits
+│   ├── TemperatureConverter.jsx # Problem 3: State Syncing
+│   └── FocusTracker.jsx         # Problem 4: useRef Magic
+├── App.jsx                      # Navigation to switch between problems
+└── ...
